@@ -1,1 +1,31 @@
+[project]
+name = "rag-framework"
+version = "0.1.0"
+description = "Production Ready RAG Framework"
 
+requires-python = ">=3.13"
+
+dependencies = [
+    "fastapi>=0.116",
+    "uvicorn[standard]>=0.35",
+    "sqlalchemy>=2.0",
+    "asyncpg>=0.30",
+    "pgvector>=0.3",
+    "alembic>=1.16",
+
+    "fastembed>=0.7",
+
+    "langchain>=0.3",
+    "langgraph>=0.6",
+
+    "pydantic>=2.11",
+    "pydantic-settings>=2.10",
+
+    "structlog>=25",
+
+    "aiogram>=3.22",
+
+    "python-dotenv>=1.1",
+
+    "orjson>=3.11",
+]
